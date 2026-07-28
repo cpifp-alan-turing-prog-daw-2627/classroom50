@@ -17,7 +17,7 @@ on:
   schedule:
     # Nightly autopilot. Comment out the next line if you only want
     # manual triggers.
-    - cron: "17 4 * * *"
+    #- cron: "17 4 * * *"
 
 permissions:
   contents: write       # write scores.json + commit
